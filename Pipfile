@@ -18,9 +18,17 @@ flask-cors = "*"
 gunicorn = "*"
 mysqlclient = "*"
 flask-admin = "*"
+alembic = "*"
+click = "*"
+greenlet = "*"
+itsdangerous = "*"
+jinja2 = "*"
+mako = "*"
+markupsafe = "*"
+protobuf = "*"
 
 [requires]
-python_version = "3.10"
+python_version = "3.12"
 
 [scripts]
 start="flask run -p 3000 -h 0.0.0.0"
